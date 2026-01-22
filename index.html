@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My digital bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="atm-container">
+  <div class="atm-card">
+    <h2>MyDigital Bank</h2>
+    
+    <div class="balance-section">
+      <p class="label">Поточний баланс</p>
+      <div class="balance-amount">
+        <span class="currency">$</span><span id="balance">300</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input type="number" id="amountInput" placeholder="Введіть суму..." min="0">
+      
+      <div class="button-group">
+        <button onclick="handleDeposit()" class="btn-deposit">
+          <span>+</span> Поповнити
+        </button>
+        <button onclick="handleWithdraw()" class="btn-withdraw">
+          <span>−</span> Зняти
+        </button>
+      </div>
+    </div>
+
+    <div id="statusMessage" class="message">Готовий до роботи</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
