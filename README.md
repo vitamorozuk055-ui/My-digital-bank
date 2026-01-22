@@ -4,7 +4,7 @@
 **MyDigital Bank** — це простий навчальний веб-проєкт, який імітує роботу цифрового банку / банкомату.  
 Проєкт створений для практики **HTML, CSS та JavaScript**, роботи з DOM, подіями та базовою бізнес-логікою.
 <img width="423"  alt="Screenshot 2026-01-21 175105" src="https://github.com/user-attachments/assets/dcd0138a-7f0e-4b5e-a49a-70b10900afa7" />
-<img width="1919" height="1083" alt="Screenshot 2026-01-22 110846" src="https://github.com/user-attachments/assets/b2b81333-977e-48b6-80ea-5fbf45357a47" />
+
 
 ---
 
